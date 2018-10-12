@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<head>
+  <title>{{article.page_title}}</title>
+  <link rel="stylesheet" href="/static/{{article.css_style}}.css">
+</head>
+
+<body>
+
+  <div>
+    {% include "nav.html" %}
+  </div>
+
+  {{article.content}}
+</body>
